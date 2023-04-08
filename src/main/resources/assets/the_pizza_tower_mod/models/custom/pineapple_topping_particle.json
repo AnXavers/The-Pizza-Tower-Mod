@@ -1,0 +1,7 @@
+
+{
+  "parent": "the_pizza_tower_mod:displaysettings/pineapple_topping.item",
+  "textures": {
+    "particle": "the_pizza_tower_mod:blocks/pat_texture"
+  }
+}

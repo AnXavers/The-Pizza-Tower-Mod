@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "texture_error",
+    "description": "Tombstone Arizona",
+    "creativeTab": {
+      "value": "CUSTOM:PizzaTowerItems"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:tombstone_arizona"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "texture_error",
+    "description": "Time for a Smackdown",
+    "creativeTab": {
+      "value": "CUSTOM:PizzaTowerItems"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:time_for_a_smackdown"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 5
+  }
+}

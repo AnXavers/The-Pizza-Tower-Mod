@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="the_pizza_tower_mod"
+version="0.0.1"
+displayName="The Pizza Tower Mod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="AnXavers"
+
+[[dependencies.the_pizza_tower_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.the_pizza_tower_mod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43.2.0]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.the_pizza_tower_mod]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

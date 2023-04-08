@@ -1,0 +1,7 @@
+
+{
+  "parent": "the_pizza_tower_mod:displaysettings/trapped_toppin.item",
+  "textures": {
+    "particle": "the_pizza_tower_mod:blocks/tt_texture"
+  }
+}

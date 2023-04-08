@@ -1,0 +1,57 @@
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "pizzatowerlogoingame.png",
+          "use1Xscale": true,
+          "x": 133,
+          "y": 11
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_pizza_tower_mod",
+          "text": {
+            "fixedValue": "The Pizza Tower Mod"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": -25,
+          "y": -4
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_prerelease_dev_build",
+          "text": {
+            "fixedValue": "Pre-release Dev Build"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": -25,
+          "y": 6
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "MainMenu",
+    "gridSettings": {
+      "sx": 16,
+      "sy": 10,
+      "ox": 13,
+      "oy": 1,
+      "snapOnGrid": true
+    }
+  }
+}

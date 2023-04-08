@@ -1,0 +1,43 @@
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "pizza_score.png",
+          "use1Xscale": true,
+          "x": -25,
+          "y": -4
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_score_relay",
+          "text": {
+            "fixedValue": "",
+            "name": "ScoreRelay"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": -1,
+          "y": 4
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 16,
+      "sy": 5,
+      "ox": 13,
+      "oy": 1,
+      "snapOnGrid": true
+    }
+  }
+}

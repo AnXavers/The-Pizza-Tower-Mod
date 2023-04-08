@@ -1,0 +1,7 @@
+
+{
+  "parent": "the_pizza_tower_mod:displaysettings/mort_cube.item",
+  "textures": {
+    "particle": "the_pizza_tower_mod:blocks/mort_cube"
+  }
+}

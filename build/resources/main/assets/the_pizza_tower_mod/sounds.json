@@ -1,0 +1,121 @@
+{
+  "toppin_collect": {
+    "category": "block",
+    "subtitle": "subtitles.toppin_collect",
+    "sounds": [
+      {
+        "name": "the_pizza_tower_mod:sfx_collecttoppin",
+        "stream": false
+      }
+    ]
+  },
+  "cold_spaggheti": {
+    "category": "music",
+    "subtitle": "subtitles.cold_spaggheti",
+    "sounds": [
+      {
+        "name": "the_pizza_tower_mod:cold_spaggheti",
+        "stream": true
+      }
+    ]
+  },
+  "pizza_deluxe": {
+    "category": "music",
+    "subtitle": "subtitles.pizza_deluxe",
+    "sounds": [
+      {
+        "name": "the_pizza_tower_mod:pizzadeluxe",
+        "stream": true
+      }
+    ]
+  },
+  "time_for_a_smackdown": {
+    "category": "music",
+    "subtitle": "subtitles.time_for_a_smackdown",
+    "sounds": [
+      {
+        "name": "the_pizza_tower_mod:time_for_a_smackdown",
+        "stream": true
+      }
+    ]
+  },
+  "tombstone_arizona": {
+    "category": "music",
+    "subtitle": "subtitles.tombstone_arizona",
+    "sounds": [
+      {
+        "name": "the_pizza_tower_mod:tombstone_arizona",
+        "stream": true
+      }
+    ]
+  },
+  "unexpectancy_part_1": {
+    "category": "music",
+    "subtitle": "subtitles.unexpectancy_part_1",
+    "sounds": [
+      {
+        "name": "the_pizza_tower_mod:unexpectancy1",
+        "stream": true
+      }
+    ]
+  },
+  "unexpectancy_part_2": {
+    "category": "music",
+    "subtitle": "subtitles.unexpectancy_part_2",
+    "sounds": [
+      {
+        "name": "the_pizza_tower_mod:unexpectancy2",
+        "stream": true
+      }
+    ]
+  },
+  "unexpectancy_part_3": {
+    "category": "music",
+    "subtitle": "subtitles.unexpectancy_part_3",
+    "sounds": [
+      {
+        "name": "the_pizza_tower_mod:unexpectancy3",
+        "stream": true
+      }
+    ]
+  },
+  "pizza_time": {
+    "category": "music",
+    "subtitle": "subtitles.pizza_time",
+    "sounds": [
+      {
+        "name": "the_pizza_tower_mod:pizzatime",
+        "stream": true
+      }
+    ]
+  },
+  "pizza_time_global": {
+    "category": "music",
+    "subtitle": "subtitles.pizza_time_global",
+    "sounds": [
+      {
+        "name": "the_pizza_tower_mod:pizzatimeglobal",
+        "stream": true
+      }
+    ]
+  },
+  "topping_collect": {
+    "category": "neutral",
+    "subtitle": "subtitles.topping_collect",
+    "sounds": [
+      {
+        "name": "the_pizza_tower_mod:sfx_collect",
+        "stream": false
+      }
+    ]
+  },
+  "silence": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "the_pizza_tower_mod:silent_qvgrszed",
+        "stream": false
+      }
+    ]
+  }
+}

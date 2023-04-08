@@ -1,0 +1,7 @@
+
+{
+  "parent": "the_pizza_tower_mod:displaysettings/cheese_topping.item",
+  "textures": {
+    "particle": "the_pizza_tower_mod:blocks/ct_texture"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "texture_error",
+    "description": "Unexpectancy Part 1",
+    "creativeTab": {
+      "value": "CUSTOM:PizzaTowerItems"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:unexpectancy_part_1"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "texture_error",
+    "description": "Cold Spaggheti",
+    "creativeTab": {
+      "value": "CUSTOM:PizzaTowerItems"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:cold_spaggheti"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

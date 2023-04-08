@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Pizza Tower Blocks",
+    "icon": {
+      "value": "CUSTOM:TrappedToppin"
+    },
+    "showSearch": true
+  }
+}

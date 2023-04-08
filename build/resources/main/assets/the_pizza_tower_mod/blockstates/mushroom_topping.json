@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_pizza_tower_mod:custom/mushroom_topping_particle"
+    },
+    "facing=east": {
+      "model": "the_pizza_tower_mod:custom/mushroom_topping_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_pizza_tower_mod:custom/mushroom_topping_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_pizza_tower_mod:custom/mushroom_topping_particle",
+      "y": 270
+    }
+  }
+}

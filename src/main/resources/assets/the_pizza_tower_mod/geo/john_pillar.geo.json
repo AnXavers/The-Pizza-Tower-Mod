@@ -1,0 +1,43 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.john pillar",
+				"texture_width": 256,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 7,
+				"visible_bounds_offset": [0, 2.5, 0]
+			},
+			"bones": [
+				{
+					"name": "Body",
+					"pivot": [0, 0.75, -0.25],
+					"cubes": [
+						{"origin": [-24, 0, -24], "size": [48, 80, 48], "uv": [0, 0]},
+						{"origin": [-16, 22, -29], "size": [32, 7, 5], "uv": [144, 26]}
+					]
+				},
+				{
+					"name": "Nose",
+					"parent": "Body",
+					"pivot": [0, 43.75, -28.25],
+					"cubes": [
+						{"origin": [-14, 31, -36], "size": [28, 14, 12], "uv": [144, 0]},
+						{"origin": [-7, 45, -29], "size": [14, 9, 5], "uv": [0, 14]}
+					]
+				},
+				{
+					"name": "EyeBrows",
+					"parent": "Body",
+					"pivot": [0, 60.5, -26.5],
+					"cubes": [
+						{"origin": [7, 56, -29], "size": [15, 9, 5], "uv": [0, 0]},
+						{"origin": [-22, 56, -29], "size": [15, 9, 5], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
