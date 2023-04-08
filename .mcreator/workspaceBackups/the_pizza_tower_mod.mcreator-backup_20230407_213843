@@ -574,27 +574,6 @@
       "path": "~/Blocks/Toppings"
     },
     {
-      "name": "ScoreValue",
-      "type": "procedure",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "score_value",
-      "metadata": {
-        "return_type": "string",
-        "files": [
-          "src/main/java/net/mcreator/thepizzatowermod/procedures/ScoreValueProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Misc"
-    },
-    {
       "name": "Score",
       "type": "overlay",
       "sortid": 34,
@@ -607,6 +586,27 @@
         ]
       },
       "path": "~/Misc"
+    },
+    {
+      "name": "ScoreRelay",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "score_relay",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/thepizzatowermod/procedures/ScoreRelayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -681,6 +681,48 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
+    },
+    {
+      "name": "Score1",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Score2",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Score3",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Score4",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Score5",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "LapNum",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ScoreRelay",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": "\"\""
     }
   ],
   "sound_elements": [
@@ -784,9 +826,9 @@
   "language_map": {
     "en_us": {
       "item.the_pizza_tower_mod.unexpectancy_part_2.desc": "Unexpectancy Part 2",
-      "item.the_pizza_tower_mod.cold_spaggheti": "Music Disc",
-      "subtitles.unexpectancy_part_3": "Unexpectancy Part 3 Playing",
       "subtitles.time_for_a_smackdown": "Time for a Smackdown Playing",
+      "subtitles.unexpectancy_part_3": "Unexpectancy Part 3 Playing",
+      "item.the_pizza_tower_mod.cold_spaggheti": "Music Disc",
       "subtitles.unexpectancy_part_2": "Unexpectancy Part 2 Playing",
       "subtitles.unexpectancy_part_1": "Unexpectancy Part 1 Playing",
       "subtitles.pizza_time_global": "Pizza Time",
@@ -893,7 +935,12 @@
       },
       {
         "name": "Procedures",
-        "children": []
+        "children": [
+          {
+            "name": "Score",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Particles",
